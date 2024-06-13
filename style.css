@@ -1,0 +1,60 @@
+.header {
+    margin: 0px;
+    padding: 0px;
+background-color: turquoise;
+
+.nav-header {
+    
+    .logo {
+        width: 100px;
+        height: 30px;
+        display: flex;
+    }
+
+    .div {
+        display: flex;
+        justify-content: flex-end;
+        align-content:flex-start;
+   
+     
+       .register-link {
+        list-style: none;
+        text-decoration: none;
+       }
+    
+    }
+}
+
+}
+
+.button-singIn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+
+    .google-button {
+        background-color: white;
+        color: white;
+        gap: 10px;
+    }
+
+    .google-button img {
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .facebook-button {
+        background-color: #3b5998;
+        color: white;
+     
+    }
+
+    .facebook-button img {
+        height: 20px;
+        margin-right: 10px;
+    }
+}
